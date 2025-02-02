@@ -1,0 +1,33 @@
+{
+    "name": "faq_backend2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest run",
+        "lint": "eslint",
+        "fmt": "prettier . --write"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.19.0",
+        "eslint": "^9.19.0",
+        "globals": "^15.14.0",
+        "prettier": "3.4.2"
+    },
+    "dependencies": {
+        "@vitalets/google-translate-api": "^9.2.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "helmet": "^8.0.0",
+        "ioredis": "^5.4.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.9.6",
+        "supertest": "^7.0.0",
+        "vitest": "^3.0.4"
+    }
+}
