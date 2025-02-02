@@ -5,7 +5,9 @@
     "scripts": {
         "test": "vitest run",
         "lint": "eslint",
-        "fmt": "prettier . --write"
+        "fmt": "prettier . --write",
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js"
     },
     "keywords": [],
     "author": "",
@@ -16,6 +18,7 @@
         "@eslint/js": "^9.19.0",
         "eslint": "^9.19.0",
         "globals": "^15.14.0",
+        "nodemon": "^3.1.9",
         "prettier": "3.4.2"
     },
     "dependencies": {
